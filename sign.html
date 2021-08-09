@@ -6,14 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign In</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
     <script src="https://kit.fontawesome.com/d8d733023d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+    <!-- Navigaton -->
     <div class="nav-div">
-        <Nav>
-            <a class="navigate Home" href="index.html">Home</a>
+        <Nav class="navbar navbar-dark bg-dark">
+            <a class="navigate" href="index.html">Home</a>
             <a class="navigate" href="image-library.html">Image Library</a>
             <a class="navigate" href="collection.html">My Collection</a>
             <a class="navigate fc" target="_blank" href="https://www.facebook.com/yeasin.aman.7">Find Us On Facebook</a>
@@ -22,22 +24,55 @@
             <a class="navigate" href="log.html">Log In</a>
             <a class="navigate" target="_blank" href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
             <a class="navigate" href="call.html"><i class="fas fa-phone-volume"></i></a>
+            <nav class="navbar navbar-light bg-dark">
+                <div class="container-fluid">
+                    <form class="d-flex">
+                        <input class="form-control me-2 w-60 hola" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
 
         </Nav>
     </div>
-    <div class="center">
-        <h1>Sign In</h1>
-        <form action="">
-            <p>Name=<input type="text" name="" placeholder="Write your name" id=""></p>
-        </form>
-        <form action="">
-            <p>Email=<input type="email" name="" placeholder="Write your email" id=""></p>
-        </form>
-        <form action="">
-            <p>Password=<input type="password" placeholder="Write your password" id=""></p>
-        </form>
-        <button class="butt" type="submit">Sign In</button>
-        <button class="butt" type="reset">Reset</button>
+    <!-- Navigation-end -->
+    <br>
+    <br>
+    <br>
+    <h1 class="middle">Sign In</h1>
+    <form class="middle">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="reset" class="btn btn-primary">Reset</button>
+    </form>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="footer-div bg-dark">
+        <footer>
+            <p class="center">Copyright&copy; 2077 A Nobody Cares Initchiative</p>
+            <p class="center"><i class="fab fa-facebook"></i> <i class="fab fa-instagram"></i> <i
+                    class="fab fa-linkedin"></i> <i class="fab fa-youtube"></i></p>
+            <a id="butt-5" class="butt butt-3" href="policy.html">Privacy Policy</a>
+            <a class="butt butt-3" href="policy.html">Terms and Conditions</a>
+            <a class="butt butt-3" href="need.html">About us</a>
+            <a class="butt butt-3" href="hire.html">Hire Me</a>
+        </footer>
     </div>
 </body>
 

@@ -1,6 +1,7 @@
 /* common styles */
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 10px;
 }
 h4{
     padding-left: 35px;
@@ -48,10 +49,10 @@ h4{
     font-weight: 700;
     margin-top: 28px;
     border-radius: 0px;
+    margin-left: 6px;
 }
 .navigate:hover{
     text-decoration: underline;
-    background-color: grey;
 }
 .nav-div{
     background-color: grey;
@@ -59,6 +60,9 @@ h4{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.hola{
+    margin-left: 35px;
 }
 .google{
     border: 3px solid orangered;
@@ -69,12 +73,6 @@ h4{
     font-weight: 700;
     margin-top: 0px;
     border-radius: 18px;
-}
-.fc:hover{
-    color: rgba(32, 37, 195, 0.986);
-}
-.Home{
-    margin-left: 268px;
 }
 .fab{
     color: white;
@@ -150,29 +148,59 @@ width: 1330px;
     border-radius: 5px;
     font-weight: 400;
 }
-.center{
-    text-align:center ;
+.middle{
+    text-align:start;
+    margin-left: 25px;
+    margin-right: 250px;
+    color: black;
 }
+
 /* About me */
 .my-pic-1{
     border: 5px solid crimson;
-    width: 300%;
+    width: 270%;
     border-radius:150px;
+    margin-bottom: 55;
 }
 .sec-flex{
     display: flex;
 }
 .butt-2{
     text-decoration: none;
+    margin-bottom: 3px;
     padding: 5px 15px;
-    font-size: 22px;
-    background-image: linear-gradient(rgb(255, 0, 34),darkred);
+    font-size: 19px;
     border-radius: 8px;
     color: white;
     font-weight: 500;
-    margin-top: 90px;
+    margin-top: 50px;
     margin-left: 30px;
     display:block;
     margin-right: 425px;
 }
-
+.butt-2:hover{
+    text-decoration: underline ;
+    color: white;
+}
+/* footer */
+.footer-div{
+    background-color: grey;
+    height: 180px;
+}
+.butt-3{
+    color: white;
+    font-weight: 500;
+}
+.butt-3:hover{
+color: black;
+text-decoration: underline;
+}
+#butt-5{
+    margin-left:370px;
+}
+.center{
+    margin-top: 0px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;}
