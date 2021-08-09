@@ -24,13 +24,11 @@ h4{
 #e{
     color: orangered;
 }
+
 .headom{
-    text-decoration: underline orangered ;
-    font-size: 35px;
+    color: firebrick;
     text-align: center;
-}
-.about{
-    color: crimson;
+    text-decoration: underline;
 }
 .para-5{
     width: 50%;
