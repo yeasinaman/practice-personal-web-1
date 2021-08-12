@@ -29,12 +29,6 @@ h4{
     text-align: center;
     text-decoration: underline;
 }
-.para-5{
-    width: 50%;
-    height: 120px;
-    margin-left: 430px;
-    margin-top: 55px;
-}
 /*-------------
  Navigation 
  ------------*/
@@ -59,7 +53,7 @@ h4{
     align-items: center;
 }
 .hola{
-    margin-left: 35px;
+    margin-left: 0px;
 }
 .google{
     border: 3px solid orangered;
@@ -70,6 +64,9 @@ h4{
     font-weight: 700;
     margin-top: 0px;
     border-radius: 18px;
+}
+.navr{
+    margin-top: 15px;
 }
 .fab{
     color: white;
@@ -83,6 +80,13 @@ h4{
 }
 .fas:hover{
     color: darkorchid;
+}
+.ya{
+    width: 50px;
+    height: 50px;
+    display: inline;
+    margin-right: 9px;
+    border-radius: 60px;
 }
 /* image library */
 .pic-header{
@@ -155,9 +159,15 @@ width: 1330px;
 /* About me */
 .my-pic-1{
     border: 5px solid crimson;
-    width: 270%;
+    width: 400px;
     border-radius:150px;
     margin-bottom: 55;
+}
+.para-5{
+    width: 80%;
+    height: 120px;
+    margin-left: 80px;
+    margin-top: 55px;
 }
 .sec-flex{
     display: flex;
@@ -170,10 +180,24 @@ width: 1330px;
     border-radius: 8px;
     color: white;
     font-weight: 600;
+    margin-left: 700px;
+    display:inline-block;
+}
+.butt-9-99{
+    text-decoration: none;
+    margin-bottom: 3px;
+    padding: 5px 35px;
+    font-size: 19px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
     margin-top: 50px;
     margin-left: 30px;
-    display:block;
-    margin-right: 425px;
+    margin-right: 450px;
+    display:inline-block;
+}
+.butt-9-99:hover{
+    text-decoration: underline;
 }
 .image-w{
     width: 40%;
